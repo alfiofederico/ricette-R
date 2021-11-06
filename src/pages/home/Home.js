@@ -5,7 +5,9 @@ import RecipeList from '../../components/RecipeList'
 import './Home.css'
 
 export default function Home() {
-  const { data, isPending, error } = useFetch("http://localhost:3000/recipes");
+  const { data, isPending, error } = useFetch(
+    "https://my-json-server.typicode.com/alfiofederico/f-server/recipes"
+  );
 
   return (
     <div className="home">

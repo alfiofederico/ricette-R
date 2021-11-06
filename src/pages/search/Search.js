@@ -10,7 +10,9 @@ export default function Search() {
   const queryParams = new URLSearchParams(queryString)
   const query = queryParams.get('q')
 
-  const url = "http://localhost:3000/recipes?q=" + query;
+  const url =
+    "https://my-json-server.typicode.com/alfiofederico/f-server/recipes?q=" +
+    query;
   const { error, isPending, data } = useFetch(url)
 
   return (
