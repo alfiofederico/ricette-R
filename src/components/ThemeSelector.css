@@ -21,3 +21,13 @@
   height: 24px;
   cursor: pointer;
 }
+
+@media(max-width: 768px){
+ .theme-selector
+ { display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 310px;
+  margin: 10px auto;
+ }
+}

@@ -33,3 +33,15 @@
   background: #555;
   color: #e4e4e4;
 }
+
+@media(max-width: 768px) {
+  .recipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.5em;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+}

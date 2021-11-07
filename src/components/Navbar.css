@@ -26,3 +26,11 @@
   background: #fff;
   color: #333;
 }
+
+
+@media(max-width: 768px) {
+ .navbar {
+  width: 320px;
+  font-size: 0.34em;
+ } 
+}

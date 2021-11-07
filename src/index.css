@@ -2,6 +2,11 @@
 
 /* base styles */
 html, body, #root {
+  /* s */
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
   height: 100%;
 }
 body {
@@ -10,6 +15,7 @@ body {
   font-size: 1.4em;
   background: #dfdfdf;
   color: #333;
+
 }
 h1,h2,h3,p {
   margin: 0;
@@ -42,4 +48,36 @@ input, textarea {
 .dark label,
 .dark p {
   color: #e4e4e4;
+}
+
+
+footer {
+  background: #58249c;
+  padding: 5px;
+  color: #fff;
+  position:fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom:0; 
+  left: 0;
+  right: 0;
+  
+}
+
+footer a {
+  text-decoration: underline;
+  color: #fff;
+  margin-left: 0.2em;
+ 
+}
+
+@media(max-width: 768px){
+html, body, #root {
+  max-width:360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 }

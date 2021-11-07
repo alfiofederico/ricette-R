@@ -54,3 +54,15 @@
 .recipe-list .card.dark div {
   color: #e4e4e4;
 }
+
+@media(max-width: 768px) {
+  .recipe-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 20px;
+ 
+  }
+
+ 
+}
