@@ -5,3 +5,13 @@
 .searchbar input {
   margin-left: 10px;
 }
+
+@media(max-width: 768px) {
+  label {
+    font-size: 1.5em;
+  }
+
+  input {
+    font-size: 1.5em;
+  }
+}

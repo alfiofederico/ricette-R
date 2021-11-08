@@ -47,5 +47,17 @@
 
   .method {
     line-height: 1em;
+    font-size: 0.6em;
+  }
+
+  h2{
+    font-size: 0.8em;
+  }
+  p {
+    font-size: 0.6em;
+  }
+
+  li {
+    font-size: 0.5em;
   }
 }
