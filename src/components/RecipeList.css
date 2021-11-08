@@ -59,7 +59,7 @@
   .recipe-list {
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-right: 20px;
  
   }
