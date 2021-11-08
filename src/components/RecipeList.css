@@ -64,7 +64,7 @@
   
   }
 
- .recipe-list .card:last-child {
+ .recipe-list .card {
    margin-bottom: 20px;
  }
 }
