@@ -30,8 +30,8 @@
 
 @media(max-width: 768px) {
  .navbar {
-  width: 320px;
-  font-size: 0.5em;
+  width: 340px;
+  font-size: 0.4em;
  } 
 
  .navbar a:last-child {
